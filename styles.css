@@ -1,0 +1,234 @@
+body {
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  line-height: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3a3535;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.navbar {
+  padding-top: 0%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 0%;
+  background-color: #1c6491;
+  color: #1c6491;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-transform: uppercase;
+  color: #e31e37;
+  font-size: 1.2rem;
+}
+
+
+.row{
+  
+  background-color:#3a3535;
+  margin: auto;
+  padding-top: 8%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+}
+.btn-info {
+  margin: 5% 3% 5% 0;
+  background-color: #1c6491;
+}
+
+.down-row{
+  margin: auto;
+  padding-top: 12%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 3%;
+}
+
+.big-heading {
+  text-align: center;
+  color:white;
+  /* text-shadow: 2px 2px black; */
+  line-height: 4rem;
+  font-size: 2rem;
+  /* padding-top: 15%; */
+  text-transform: capitalize;
+}
+
+.title-image {
+  border: 10px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  width: 60%;
+}
+
+.card-body {
+  background-color: #3a3535;
+  color: #a3a3a3;
+  font-family: 'Karla', sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+.card-title{
+  display:inline-block;
+  border-bottom:1px solid white;
+  padding-bottom:2px;
+}
+
+.menu-big-heading {
+  color: orange;
+}
+
+.Footer {
+  background-color: #3a3535;
+  padding-top: 3%;
+}
+
+.section-white {
+  background-color: #3a3535;
+}
+
+.one {
+  border: 50px solid #3a3535;
+  border-top: 50%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials {
+  min-height: 500px;
+  padding-top: 4%;
+}
+
+#testimonial-carousel {
+  padding-top: 50px;
+  color: #fff;
+}
+
+.menu-border {
+  border-bottom: 2px solid #e31e37;
+  padding: 3%;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+
+.pizza1 {
+  max-width: 100%;
+  max-height: 100%;
+  padding-right: 15px;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  /* opacity:0.80; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+      fixed = parallax
+      scroll = normal
+    */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('images/pizza1.jpg');
+  min-height: 800px;
+}
+
+.pimg2 {
+  background-image: url('images/pizza5.jpg');
+  min-height: 800px;
+}
+
+.pimg3 {
+  background-image: url('images/pizza3.jpg');
+  min-height: 800px;
+}
+
+.flip-box {
+  background-image: url('images/pizza1.jpg');
+}
+
+.section-dark {
+  background-color: #3a3535;
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  padding: 70px 80px;
+  min-height: 800px;
+}
+
+.ptext {
+  position: absolute;
+  top: 99%;
+  width: 100%;
+  text-align: center;
+  color: #1c6491;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+
+.ptext .border {
+  background-color:#1c6491;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+.social-icon {
+  padding: 0 25px;
+  color: #d7c79e;
+}
+
+.black-text {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    padding-top: 10%;
+    float: left;
+    width: 25%;
+    max-width: 100%;
+  }
+}
+
+
+@media(max-width:568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+}
+
+.roystan {
+  color: #d7c79e;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
